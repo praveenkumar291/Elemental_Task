@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+html,
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  margin: 0;
+  overflow-x: hidden !important;
+  color: #333333;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+/************************************ Common Classes *************************************************/
+.primaryButton {
+  position: static;
+  width: 99px;
+  height: 47px;
+  left: 0px;
+  top: 0px;
+
+  /* White */
+  background: #fefefe;
+
+  /* Black */
+  border: 1px solid #111111;
+  box-sizing: border-box;
+
+  /* Button shadow - Secondary */
+  box-shadow: 0px 4px 0px #8a8a8a;
+  border-radius: 8px;
+
+  /* Button text */
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+
+  /* Black */
+  color: #111111;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+}
+
+.menu {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .primaryButton {
+    display: none;
+  }
+  .secondry-btn {
+    display: none;
+  }
+  .list {
+    display: none;
+  }
+  .cart {
+    margin-right: 10px;
+  }
+  .menu {
+    display: block;
+  }
+}
+
+.secondry-btn {
+  position: static;
+  width: 112px;
+  height: 47px;
+  left: 123px;
+  top: 0px;
+
+  /* Cobalt */
+  background: #1e90ff;
+
+  /* Cobalt */
+  border: 1px solid #1e90ff;
+  box-sizing: border-box;
+
+  /* Button shadow - Primary Cobalt */
+  box-shadow: 0px 4px 0px #99cdff;
+  border-radius: 8px;
+
+  /* Button text */
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+
+  /* White */
+  color: #fefefe;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 24px;
+}
+
+.logos-images {
+  display: flex;
+
+  justify-content: space-around;
+  margin: 60px 0px 60px 0px;
+}
+.flex-row {
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+}
+
+/********** Header ****************/
+.logo {
+}
+img {
+  margin: 0;
+}
+.flex-header {
+  display: flex;
+  align-items: center;
+}
+
+.site-header {
+  overflow: hidden;
+  padding: 15px 0px;
+  vertical-align: middle;
+}
+
+.btn-canvas-menu img:hover {
+  left: 330px;
+}
+
+.list {
+  margin: 0px 10px 0px 10px;
+
+  justify-content: space-around;
+  position: relative;
+  font-family: DM Sans;
+  font-style: normal;
+  decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+
+  /* identical to box height */
+
+  /* Cobalt */
+  color: #1e90ff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}
+
+.site-menu {
+  margin-left: auto;
+  /* .primaryButton {
+    max-width: 212px;
+    padding: 15px 15px;
+    color: $white !important;
+    height: auto;
+    text-align: center;
+    font: 500;
+  } */
+  display: flex;
+}
+.show {
+  display: block;
+}
+
+.navDropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.navDropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+/* .navDropdown-content {
+    .list-len {
+      padding: 0px;
+      display: none;
+    }
+  } */
+ul {
+  margin: 0;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.head {
+  height: 108px;
+  background: rgba(254, 254, 254, 0.8);
+  backdrop-filter: blur(4px);
+}

@@ -1,0 +1,254 @@
+.rec78 {
+  position: absolute;
+  bottom: 161px;
+  left: 0;
+  z-index: -1;
+}
+
+.rec77 {
+  position: absolute;
+  left: 221px;
+  top: -11px;
+  z-index: -1;
+}
+
+.rec84 {
+  position: absolute;
+  z-index: -1;
+  top: 152px;
+  left: 107px;
+}
+
+.rec75 {
+  position: absolute;
+  left: 108px;
+  z-index: -1;
+  padding-top: 104px;
+}
+
+.rec76 {
+  position: absolute;
+  right: 106px;
+  padding-top: 97px;
+  z-index: -1;
+}
+
+.ht {
+  height: 720px;
+}
+
+.dots {
+  float: right;
+  padding: 0 10px;
+}
+.drop {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 42px;
+  width: 500px;
+  /* identical to box height */
+  /* word-spacing: 2px; */
+  /* Black */
+  color: #111111;
+}
+
+.dropSpace {
+  background: #fefefe;
+  display: inline-block;
+  /* Grey */
+  border: 1px dashed #8a8a8a;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 113px;
+  height: 45px;
+}
+
+.dnd-btn {
+  /* White */
+  background: #fefefe;
+
+  /* Black */
+  border: 1px solid #111111;
+  box-sizing: border-box;
+
+  /* Button shadow - Secondary */
+  box-shadow: 0px 4px 0px #8a8a8a;
+  border-radius: 8px;
+  width: 120px;
+  height: 47px;
+}
+
+.dnd-btns {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.dnd-c {
+  background: #1e90ff;
+  opacity: 0.3;
+
+  /* Cobalt */
+  border: 1px solid #1e90ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 105px;
+  height: 47px;
+}
+
+@media only screen and (max-width: 600px) {
+  .tags {
+    display: block;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+
+    /* identical to box height */
+
+    color: #1e90ff !important;
+  }
+  .drop {
+    width: 300px;
+  }
+  .dp {
+    width: 316px;
+    padding-top: 15px;
+  }
+  .b1 {
+    margin-bottom: 20px;
+  }
+  .socials {
+    display: flex;
+    width: 135px;
+    justify-content: space-between;
+  }
+  .footer-text {
+    text-align: left;
+  }
+  footer p {
+    width: 288px;
+  }
+  .anchors {
+    flex-direction: column;
+  }
+  .anchors a {
+    margin-bottom: 20px;
+  }
+  .ht {
+    height: 920px;
+  }
+
+  .httt {
+    height: 680px;
+  }
+  .btn-signUp {
+    width: 262px;
+    height: 47px;
+  }
+  .self-flex {
+    display: flex;
+    align-items: baseline;
+    padding: 0 0px;
+    margin-top: 20px;
+  }
+  .s2 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .placeHolders {
+    display: block;
+  }
+  .s3 {
+    width: 226px;
+  }
+  .card1 {
+    width: 310px;
+    height: 173px;
+  }
+  .place {
+    margin-bottom: 15px;
+  }
+  .card2 {
+    width: 310px;
+    height: 173px;
+  }
+  .rec75 {
+    position: absolute;
+    left: -1px;
+    z-index: -1;
+    padding-top: 176px;
+  }
+  .rec76 {
+    position: absolute;
+    right: 1px;
+    padding-top: 180px;
+    z-index: -1;
+  }
+  .bg2 {
+    background-attachment: fixed;
+    background-position: center;
+  }
+  .sub {
+    max-width: 48.74px;
+    width: 53.74px;
+    height: 58px;
+    margin-right: 10px;
+  }
+  .section-2 {
+    padding: 0px 0;
+  }
+  .flex-container2 {
+    max-width: 1000px;
+    padding: 0 0;
+    margin: auto;
+  }
+  .self {
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 36px;
+    width: 277px;
+    color: #111111;
+  }
+  .self-flex {
+    display: flex;
+    align-items: baseline;
+    padding: 0 25px;
+    margin-top: 20px;
+  }
+  .self1 {
+    width: 270px;
+  }
+  .sel2 {
+    width: 262px;
+  }
+  .cards-1 {
+    display: block;
+    float: left;
+  }
+  .rec77 {
+    position: absolute;
+    left: 168px;
+    top: -11px;
+    z-index: -1;
+  }
+  .an {
+    margin-left: 157px;
+    margin-top: 32px;
+  }
+  .bg {
+    height: 743px;
+  }
+  .rec78 {
+    position: absolute;
+    bottom: 285px;
+    left: -30px;
+    z-index: -1;
+    transform: rotate(90deg);
+  }
+  .htt {
+    height: 743px;
+  }
+}
